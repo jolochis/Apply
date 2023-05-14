@@ -1,0 +1,186 @@
+.Front-End-Test---Home-view {
+  width: 90rem;
+  height: 64rem;
+  padding: 0 0 6.125rem;
+  background-color: #fcfcfc;
+}
+.Rectangle-2-Copy {
+  width: 90rem;
+  height: 7.125rem;
+  margin: 0 0 4.375rem;
+  padding: 2.75rem 67.625rem 2.625rem 9.375rem;
+  box-shadow: 0 1px 4px 0 var(--navy-12);
+  background-image: linear-gradient(to bottom, #ececec -32%, #fff 124%);
+}
+img.HACKER-NEWS {
+  width: 13rem;
+  height: 1.75rem;
+  object-fit: contain;
+  font-family: Baskerville;
+  font-size: 1.75rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #3b3b3b;
+}
+
+
+.Rectangle {
+  width: 6.125rem;
+  height: 1.938rem;
+  padding: 0.188rem 2.438rem 0 2.5rem;
+  border-radius: 2px;
+  border: solid 1px var(--azure);
+}
+.All {
+  width: 1.188rem;
+  height: 1.75rem;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--azure);
+}
+.My-faves {
+  width: 4.063rem;
+  height: 1.75rem;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: center;
+  color: #606060;
+}
+
+.Text {
+  width: 11.438rem;
+  height: 1.375rem;
+  margin: 0 1.187rem 0 0;
+  font-family: Roboto;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  color: #343434;
+}
+.Rectangle-26-Copy-23 {
+  width: 15rem;
+  height: 2rem;
+  margin: 3.938rem 7.125rem 0.063rem 9.375rem;
+  padding: 0.313rem 0.75rem 0.313rem 0.75rem;
+
+  background-color: #fff;
+}
+.Angular {
+  width: 3.063rem;
+  height: 1.375rem;
+  margin: 0 0 4.063rem 0.813rem;
+  font-family: Roboto;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  color: #343434;
+}
+
+img.Image-138 {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 0.063rem 0.813rem 3.875rem 0;
+  object-fit: contain;
+}
+
+.center{
+  display: flex;
+  margin: 0 auto;
+}
+.center-child {
+  
+  margin-left: 20px;
+  margin-right: 20px;
+}
+img.iconmonstr-time-2 {
+  width: 1rem;
+  height: 1rem;
+  margin: 0.875rem 0.5rem 0.375rem 0;
+  object-fit: contain;
+}
+.Yes-React-is-taking {
+  width: 27.5rem;
+  height: 2.5rem;
+  margin: 0.375rem 1rem 0.875rem 0;
+  font-family: Roboto;
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: 0.25px;
+  color: var(--brownish-grey);
+}
+
+.-hours-ago-by-autho {
+  width: 6.688rem;
+  height: 0.813rem;
+  margin: 1rem 20.313rem 0.438rem 0.5rem;
+  font-family: Roboto;
+  font-size: 0.688rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #767676;
+}
+
+.Rectangle-articles {
+  width: 36rem;
+  height: 5.625rem;
+  margin: 2.375rem 2.5rem 1.875rem 9.375rem;
+  padding: 0 0 0 1.625rem;
+  opacity: 0.8;
+  border-radius: 6px;
+  border: solid 1px #979797;
+  background-color: #fff;
+}
+
+.Rectangle-heart {
+  width: 4.25rem;
+  height: 5.625rem;
+  margin: 0 0 0 1rem;
+  padding: 2.188rem 1.375rem 2.063rem;
+  opacity: 0.06;
+  border-radius: 6px;
+  border: solid 1px #606060;
+  background-color: #606060;
+}
+.Text-articles {
+  width: 27.5rem;
+  height: 2.5rem;
+  margin: 2.25rem 1rem 0.875rem 0;
+  font-family: Roboto;
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: 0.25px;
+  color: #606060;
+}
+
+.pagination {
+  margin: 0 auto ;
+}
