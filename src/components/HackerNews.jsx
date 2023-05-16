@@ -11,7 +11,9 @@ function HackerNews() {
   const [pages, setGetPages] = useState(0);
   const [pageItems, setPageItems] = useState([]);
   const [results, setResults] = useState([]);
-  const [likedPost, setLikedPost] = useState(JSON.parse(localStorage.getItem("likes")) || []);
+  const [likedPost, setLikedPost] = useState(
+    JSON.parse(localStorage.getItem("likes")) || []
+  );
   const [filterPost, setFilterPost] = useState("");
 
   const options = [
@@ -68,13 +70,15 @@ function HackerNews() {
     );
     setGetPages(getPages.data);
     setResults(filtered);
-    
   };
   const handleLiked = (data) => {
     setLikedPost((old) => [...old, data]);
     data.like = true;
-    localStorage.setItem("likes",JSON.stringify(likedPost))
   };
+
+  useEffect(() => {
+    localStorage.setItem("likes", JSON.stringify(likedPost));
+  }, [likedPost]);
 
   useEffect(() => {
     (async () => {
@@ -97,8 +101,7 @@ function HackerNews() {
 
   useEffect(() => {
     (async () => {
-      console.log(likedPost)
-    if(filterPost === "All"){
+      if (filterPost === "All") {
         const getPages = await searchPage(0);
         const filtered = getPages.data.hits.filter(
           (item) =>
@@ -110,12 +113,11 @@ function HackerNews() {
             )
         );
         setResults(filtered);
+      } else if (filterPost === "Favs") {
+        setResults(likedPost);
       }
-    else if(filterPost === "Favs"){
-      setResults(likedPost)
-    }
     })();
-  },[filterPost])
+  }, [filterPost]);
   return (
     <>
       <div className="Front-End-Test---Home-view">
